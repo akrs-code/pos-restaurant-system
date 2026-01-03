@@ -1,4 +1,4 @@
-# 🛒 POS & Order Management System
+# POS & Order Management System
 
 A **full-featured Point of Sale (POS) and Order Management System** built with **React**, **Node.js**, **Express**, and **MongoDB**. Designed to help businesses manage orders, and generate printable receipts efficiently.
 
