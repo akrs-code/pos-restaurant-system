@@ -1,9 +1,5 @@
 # POS & Order Management System
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/akrs-code/pos-order-system) 
-![GitHub contributors](https://img.shields.io/github/contributors/akrs-code/pos-order-system)
-![GitHub license](https://img.shields.io/github/license/akrs-code/pos-order-system)
-
 A **full-featured Point of Sale (POS) and Order Management System** built with **React**, **Node.js**, **Express**, and **MongoDB**, designed to help businesses manage orders, track daily earnings, and generate printable receipts efficiently.
 
 ---
@@ -33,36 +29,49 @@ A **full-featured Point of Sale (POS) and Order Management System** built with *
 
 ## 💾 Installation
 
-1. **Clone the repository**
-
-```bash
+# Clone the repository
 git clone https://github.com/akrs-code/pos-restaurant-system.git
-cd pos-order-system
+cd pos-restaurant-system
 
-# Backend
+# Backend setup
 cd backend
 npm install
 
-# Frontend
-cd frontend
+# Frontend setup
+cd ../frontend
 npm install
 
-# Create a .env file based on .env.example:
-PORT=8000
-MONGODB_URI=your_mongodb_uri_here
-JWT_SECRET=your_jwt_secret_here
+# Create a .env file based on .env.example
+# Example:
+# PORT=8000
+# MONGODB_URI=your_mongodb_uri_here
+# JWT_SECRET=your_jwt_secret_here
 
-# Backend
+# Start the backend server
+cd ../backend
 npm run dev
 
-# Frontend (in client folder)
+# Start the frontend (from frontend folder)
+cd ../frontend
 npm run dev
 
-# Contributing
-Fork the repository
-Create a branch: git checkout -b feature/your-feature
-Make changes and commit: git commit -m "Add some feature"
-Push to the branch: git push origin feature/your-feature
-Open a Pull Request
+## 💾 Contribution
+
+# Fork the repository to your account
+
+# Clone your fork
+git clone https://github.com/your-username/pos-restaurant-system.git
+cd pos-restaurant-system
+
+# Create a new branch for your feature
+git checkout -b feature/your-feature
+
+# Make your changes, then stage and commit them
+git add .
+git commit -m "Add some feature"
+
+# Push your branch to your fork
+git push origin feature/your-feature
+
 
 
