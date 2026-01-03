@@ -33,44 +33,44 @@ A **full-featured Point of Sale (POS) and Order Management System** built with *
 git clone https://github.com/akrs-code/pos-restaurant-system.git
 cd pos-restaurant-system
 
-# Backend setup
+Backend setup
 cd backend
 npm install
 
-# Frontend setup
+Frontend setup
 cd ../frontend
 npm install
 
-# Create a .env file based on .env.example
-# Example:
-# PORT=8000
-# MONGODB_URI=your_mongodb_uri_here
-# JWT_SECRET=your_jwt_secret_here
+Create a .env file based on .env.example
+Example:
+PORT=8000
+MONGODB_URI=your_mongodb_uri_here
+JWT_SECRET=your_jwt_secret_here
 
-# Start the backend server
+Start the backend server
 cd ../backend
 npm run dev
 
-# Start the frontend (from frontend folder)
+Start the frontend (from frontend folder)
 cd ../frontend
 npm run dev
 
 ## 💾 Contribution
 
-# Fork the repository to your account
+Fork the repository to your account
 
-# Clone your fork
+Clone your fork
 git clone https://github.com/your-username/pos-restaurant-system.git
 cd pos-restaurant-system
 
-# Create a new branch for your feature
+Create a new branch for your feature
 git checkout -b feature/your-feature
 
-# Make your changes, then stage and commit them
+Make your changes, then stage and commit them
 git add .
 git commit -m "Add some feature"
 
-# Push your branch to your fork
+Push your branch to your fork
 git push origin feature/your-feature
 
 
