@@ -1,12 +1,11 @@
 # 🛒 POS & Order Management System
 
-A **full-featured Point of Sale (POS) and Order Management System** built with **React**, **Node.js**, **Express**, and **MongoDB**. Designed to help businesses manage orders, track daily earnings, and generate printable receipts efficiently.
+A **full-featured Point of Sale (POS) and Order Management System** built with **React**, **Node.js**, **Express**, and **MongoDB**. Designed to help businesses manage orders, and generate printable receipts efficiently.
 
 ---
 
 ## 🚀 Features
 * **Order Management:** View, update, and complete orders with detailed item lists.
-* **Daily Earnings Tracking:** Automatically records daily sales and resets every day.
 * **Print Receipts:** Generate and print detailed receipts for customers.
 * **Customer Management:** Store and display customer details for each order.
 * **Dynamic Status Updates:** Mark orders as Processing or Completed with visual indicators.
@@ -18,7 +17,6 @@ A **full-featured Point of Sale (POS) and Order Management System** built with *
 ## 🛠 Tech Stack & Environment
 * **Frontend:** React.js, TailwindCSS, React Icons, Redux/Zustand
 * **Backend:** Node.js, Express.js, MongoDB
-* **DevOps:** `.env` configuration, JWT Security
 
 ---
 
